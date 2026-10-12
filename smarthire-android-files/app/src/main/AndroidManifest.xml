@@ -1,0 +1,5 @@
+<!-- MERGE these two lines into YOUR existing AndroidManifest.xml (do not replace the whole file) -->
+<!-- 1) directly inside <manifest>, above <application>: -->
+<uses-permission android:name="android.permission.INTERNET" />
+<!-- 2) only while testing against a local http:// server, add to the <application> tag: -->
+<!--    android:usesCleartextTraffic="true"   (remove it once your API uses https) -->

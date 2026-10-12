@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "c1",
+    "title": "Python for Beginners",
+    "skill": "Python",
+    "level": "Beginner",
+    "duration": "4 weeks",
+    "docsUrl": "https://docs.python.org/3/tutorial/",
+    "videoQuery": "Python for beginners full course",
+    "lessons": [
+      {
+        "title": "Python basics",
+        "points": [
+          "Python is a readable, interpreted language; print() shows output",
+          "Variables hold values, e.g. age = 20 or name = \"Asha\"",
+          "Core types are int, float, str and bool; type() reveals the type"
+        ]
+      },
+      {
+        "title": "Control flow & functions",
+        "points": [
+          "if / elif / else lets a program make decisions",
+          "for loops walk through lists and ranges; while repeats until a condition fails",
+          "Define reusable code with def name(args): and return a value"
+        ]
+      },
+      {
+        "title": "Data structures",
+        "points": [
+          "Lists are ordered and mutable; tuples are ordered and immutable",
+          "Dictionaries store key-value pairs; sets store unique items",
+          "A list comprehension builds lists briefly: [x*x for x in range(5)]"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Which keyword defines a function in Python?",
+        "options": [
+          {
+            "text": "def",
+            "correct": true
+          },
+          {
+            "text": "func",
+            "correct": false
+          },
+          {
+            "text": "function",
+            "correct": false
+          },
+          {
+            "text": "lambda",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which data type is immutable?",
+        "options": [
+          {
+            "text": "tuple",
+            "correct": true
+          },
+          {
+            "text": "list",
+            "correct": false
+          },
+          {
+            "text": "dict",
+            "correct": false
+          },
+          {
+            "text": "set",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "What does print(type(3.5)) show?",
+        "options": [
+          {
+            "text": "<class 'float'>",
+            "correct": true
+          },
+          {
+            "text": "<class 'int'>",
+            "correct": false
+          },
+          {
+            "text": "<class 'str'>",
+            "correct": false
+          },
+          {
+            "text": "<class 'bool'>",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which expression creates a list of squares of 0 to 4?",
+        "options": [
+          {
+            "text": "[x*x for x in range(5)]",
+            "correct": true
+          },
+          {
+            "text": "{x*x for x in 5}",
+            "correct": false
+          },
+          {
+            "text": "list(x^2)",
+            "correct": false
+          },
+          {
+            "text": "squares(5)",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which structure stores key-value pairs?",
+        "options": [
+          {
+            "text": "dictionary",
+            "correct": true
+          },
+          {
+            "text": "list",
+            "correct": false
+          },
+          {
+            "text": "tuple",
+            "correct": false
+          },
+          {
+            "text": "string",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c2",
+    "title": "SQL & Databases Essentials",
+    "skill": "SQL",
+    "level": "Beginner",
+    "duration": "3 weeks",
+    "docsUrl": "https://www.w3schools.com/sql/",
+    "videoQuery": "SQL tutorial for beginners",
+    "lessons": [
+      {
+        "title": "Relational databases",
+        "points": [
+          "Data lives in tables made of rows and columns",
+          "A primary key uniquely identifies each row",
+          "SELECT column FROM table reads data"
+        ]
+      },
+      {
+        "title": "Filtering & sorting",
+        "points": [
+          "WHERE filters rows, ORDER BY sorts and LIMIT restricts the count",
+          "Combine conditions with AND, OR, IN and LIKE",
+          "Summarise with COUNT, SUM, AVG, MIN, MAX and GROUP BY"
+        ]
+      },
+      {
+        "title": "Joins",
+        "points": [
+          "INNER JOIN returns rows that match in both tables",
+          "LEFT JOIN keeps every row from the left table",
+          "A foreign key links a row to the primary key of another table"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Which clause filters rows?",
+        "options": [
+          {
+            "text": "WHERE",
+            "correct": true
+          },
+          {
+            "text": "ORDER BY",
+            "correct": false
+          },
+          {
+            "text": "GROUP BY",
+            "correct": false
+          },
+          {
+            "text": "LIMIT",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which JOIN keeps all rows from the left table?",
+        "options": [
+          {
+            "text": "LEFT JOIN",
+            "correct": true
+          },
+          {
+            "text": "INNER JOIN",
+            "correct": false
+          },
+          {
+            "text": "CROSS JOIN",
+            "correct": false
+          },
+          {
+            "text": "SELF JOIN",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which function counts rows?",
+        "options": [
+          {
+            "text": "COUNT()",
+            "correct": true
+          },
+          {
+            "text": "SUM()",
+            "correct": false
+          },
+          {
+            "text": "AVG()",
+            "correct": false
+          },
+          {
+            "text": "MAX()",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "What uniquely identifies a row in a table?",
+        "options": [
+          {
+            "text": "Primary key",
+            "correct": true
+          },
+          {
+            "text": "Foreign key",
+            "correct": false
+          },
+          {
+            "text": "Index",
+            "correct": false
+          },
+          {
+            "text": "View",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which keyword sorts the results?",
+        "options": [
+          {
+            "text": "ORDER BY",
+            "correct": true
+          },
+          {
+            "text": "SORT",
+            "correct": false
+          },
+          {
+            "text": "GROUP BY",
+            "correct": false
+          },
+          {
+            "text": "ARRANGE",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c3",
+    "title": "Web Development: HTML & CSS",
+    "skill": "HTML",
+    "level": "Beginner",
+    "duration": "4 weeks",
+    "docsUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+    "videoQuery": "HTML CSS crash course",
+    "lessons": [
+      {
+        "title": "HTML structure",
+        "points": [
+          "HTML describes a page with tags such as <h1>, <p> and <a>",
+          "Every page has <html>, <head> and <body>",
+          "Semantic tags (<header>, <nav>, <article>, <footer>) give meaning"
+        ]
+      },
+      {
+        "title": "CSS styling",
+        "points": [
+          "CSS selects elements and sets properties such as color, font-size, margin and padding",
+          "Box model: content, padding, border, margin",
+          "Link a stylesheet with <link rel=\"stylesheet\" href=\"style.css\">"
+        ]
+      },
+      {
+        "title": "Layout & responsiveness",
+        "points": [
+          "Flexbox arranges items in a row or column; Grid builds two-dimensional layouts",
+          "Media queries adapt a design to screen width",
+          "Relative units (%, rem) keep sizes flexible"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Which tag creates a hyperlink?",
+        "options": [
+          {
+            "text": "<a>",
+            "correct": true
+          },
+          {
+            "text": "<link>",
+            "correct": false
+          },
+          {
+            "text": "<href>",
+            "correct": false
+          },
+          {
+            "text": "<url>",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which is a semantic HTML tag?",
+        "options": [
+          {
+            "text": "<article>",
+            "correct": true
+          },
+          {
+            "text": "<div>",
+            "correct": false
+          },
+          {
+            "text": "<span>",
+            "correct": false
+          },
+          {
+            "text": "<b>",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which CSS property changes text colour?",
+        "options": [
+          {
+            "text": "color",
+            "correct": true
+          },
+          {
+            "text": "font-style",
+            "correct": false
+          },
+          {
+            "text": "text-size",
+            "correct": false
+          },
+          {
+            "text": "background",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which CSS feature adapts a layout to different screen widths?",
+        "options": [
+          {
+            "text": "Media queries",
+            "correct": true
+          },
+          {
+            "text": "Comments",
+            "correct": false
+          },
+          {
+            "text": "Selectors only",
+            "correct": false
+          },
+          {
+            "text": "Inline JS",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "In the box model, the space between content and border is…",
+        "options": [
+          {
+            "text": "padding",
+            "correct": true
+          },
+          {
+            "text": "margin",
+            "correct": false
+          },
+          {
+            "text": "outline",
+            "correct": false
+          },
+          {
+            "text": "gap",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c4",
+    "title": "JavaScript Fundamentals",
+    "skill": "JavaScript",
+    "level": "Beginner",
+    "duration": "4 weeks",
+    "docsUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "videoQuery": "JavaScript tutorial for beginners",
+    "lessons": [
+      {
+        "title": "JavaScript basics",
+        "points": [
+          "JavaScript runs in browsers and on servers (Node.js)",
+          "Declare variables with let and const; avoid var",
+          "Types include number, string, boolean, object, undefined and null"
+        ]
+      },
+      {
+        "title": "Functions & arrays",
+        "points": [
+          "Functions can be arrow functions: (a, b) => a + b",
+          "Arrays offer map, filter and reduce to transform data",
+          "=== compares value and type; == converts types first"
+        ]
+      },
+      {
+        "title": "DOM & async",
+        "points": [
+          "The DOM lets scripts read and change the page, e.g. document.querySelector()",
+          "addEventListener runs a handler when an event such as click happens",
+          "Promises and async/await handle asynchronous work like fetching data"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Which keyword declares a block-scoped variable?",
+        "options": [
+          {
+            "text": "let",
+            "correct": true
+          },
+          {
+            "text": "var",
+            "correct": false
+          },
+          {
+            "text": "int",
+            "correct": false
+          },
+          {
+            "text": "dim",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "What does === check?",
+        "options": [
+          {
+            "text": "Value and type",
+            "correct": true
+          },
+          {
+            "text": "Value only",
+            "correct": false
+          },
+          {
+            "text": "Type only",
+            "correct": false
+          },
+          {
+            "text": "Reference only",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which array method builds a new array by transforming each item?",
+        "options": [
+          {
+            "text": "map",
+            "correct": true
+          },
+          {
+            "text": "push",
+            "correct": false
+          },
+          {
+            "text": "pop",
+            "correct": false
+          },
+          {
+            "text": "splice",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which feature handles asynchronous code?",
+        "options": [
+          {
+            "text": "async/await",
+            "correct": true
+          },
+          {
+            "text": "for loop",
+            "correct": false
+          },
+          {
+            "text": "switch",
+            "correct": false
+          },
+          {
+            "text": "typeof",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which method selects an element in the DOM?",
+        "options": [
+          {
+            "text": "document.querySelector()",
+            "correct": true
+          },
+          {
+            "text": "window.print()",
+            "correct": false
+          },
+          {
+            "text": "console.log()",
+            "correct": false
+          },
+          {
+            "text": "Math.random()",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c5",
+    "title": "Data Analysis with Pandas",
+    "skill": "Pandas",
+    "level": "Intermediate",
+    "duration": "5 weeks",
+    "docsUrl": "https://pandas.pydata.org/docs/getting_started/index.html",
+    "videoQuery": "pandas tutorial python",
+    "lessons": [
+      {
+        "title": "DataFrames",
+        "points": [
+          "pandas stores tabular data in a DataFrame",
+          "Load data with pd.read_csv(\"file.csv\")",
+          "Inspect with df.head(), df.info() and df.describe()"
+        ]
+      },
+      {
+        "title": "Cleaning data",
+        "points": [
+          "Find missing values with df.isna().sum()",
+          "Fill or drop them: df.fillna(0), df.dropna()",
+          "Fix types with astype() and remove duplicates with drop_duplicates()"
+        ]
+      },
+      {
+        "title": "Analysis",
+        "points": [
+          "Filter rows: df[df[\"age\"] > 18]",
+          "Group and summarise: df.groupby(\"city\")[\"sales\"].sum()",
+          "Combine tables with merge() and plot with df.plot()"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Which function loads a CSV file?",
+        "options": [
+          {
+            "text": "pd.read_csv()",
+            "correct": true
+          },
+          {
+            "text": "pd.open_csv()",
+            "correct": false
+          },
+          {
+            "text": "pd.load()",
+            "correct": false
+          },
+          {
+            "text": "pd.csv()",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which expression shows missing values per column?",
+        "options": [
+          {
+            "text": "df.isna().sum()",
+            "correct": true
+          },
+          {
+            "text": "df.size",
+            "correct": false
+          },
+          {
+            "text": "df.shape",
+            "correct": false
+          },
+          {
+            "text": "df.columns",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which method groups data so it can be summarised?",
+        "options": [
+          {
+            "text": "groupby()",
+            "correct": true
+          },
+          {
+            "text": "sort()",
+            "correct": false
+          },
+          {
+            "text": "rename()",
+            "correct": false
+          },
+          {
+            "text": "copy()",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "What does df.head() do?",
+        "options": [
+          {
+            "text": "Shows the first rows",
+            "correct": true
+          },
+          {
+            "text": "Deletes rows",
+            "correct": false
+          },
+          {
+            "text": "Shows the last rows",
+            "correct": false
+          },
+          {
+            "text": "Sorts the data",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which method combines two DataFrames on a key?",
+        "options": [
+          {
+            "text": "merge()",
+            "correct": true
+          },
+          {
+            "text": "shuffle()",
+            "correct": false
+          },
+          {
+            "text": "stack_up()",
+            "correct": false
+          },
+          {
+            "text": "join_text()",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c6",
+    "title": "Machine Learning Basics",
+    "skill": "Machine Learning",
+    "level": "Intermediate",
+    "duration": "6 weeks",
+    "docsUrl": "https://scikit-learn.org/stable/",
+    "videoQuery": "machine learning basics tutorial",
+    "lessons": [
+      {
+        "title": "What is machine learning",
+        "points": [
+          "ML finds patterns in data to make predictions",
+          "Supervised learning uses labelled data; unsupervised learning finds structure without labels",
+          "Common tasks: classification, regression and clustering"
+        ]
+      },
+      {
+        "title": "Training & evaluation",
+        "points": [
+          "Split data into training and test sets",
+          "Overfitting means the model memorises training data and fails on new data",
+          "Metrics: accuracy, precision, recall and F1 for classification; MAE and RMSE for regression"
+        ]
+      },
+      {
+        "title": "The workflow",
+        "points": [
+          "Clean the data, choose features, train, evaluate, then improve",
+          "Common models: linear regression, decision trees, k-nearest neighbours",
+          "Cross-validation gives a more reliable estimate of performance"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Which is a supervised learning task?",
+        "options": [
+          {
+            "text": "Classification",
+            "correct": true
+          },
+          {
+            "text": "Clustering",
+            "correct": false
+          },
+          {
+            "text": "Dimensionality reduction",
+            "correct": false
+          },
+          {
+            "text": "Association rules",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Overfitting means the model…",
+        "options": [
+          {
+            "text": "fits training data too closely",
+            "correct": true
+          },
+          {
+            "text": "is too simple",
+            "correct": false
+          },
+          {
+            "text": "has no data",
+            "correct": false
+          },
+          {
+            "text": "trains too fast",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Why split data into training and test sets?",
+        "options": [
+          {
+            "text": "To evaluate on unseen data",
+            "correct": true
+          },
+          {
+            "text": "To make the data bigger",
+            "correct": false
+          },
+          {
+            "text": "To remove labels",
+            "correct": false
+          },
+          {
+            "text": "To speed up loading",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which metric suits regression?",
+        "options": [
+          {
+            "text": "RMSE",
+            "correct": true
+          },
+          {
+            "text": "Precision",
+            "correct": false
+          },
+          {
+            "text": "Recall",
+            "correct": false
+          },
+          {
+            "text": "F1",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which is a clustering algorithm?",
+        "options": [
+          {
+            "text": "k-means",
+            "correct": true
+          },
+          {
+            "text": "Linear regression",
+            "correct": false
+          },
+          {
+            "text": "Logistic regression",
+            "correct": false
+          },
+          {
+            "text": "ROC curve",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c7",
+    "title": "Excel for Business",
+    "skill": "Excel",
+    "level": "Beginner",
+    "duration": "2 weeks",
+    "docsUrl": "https://support.microsoft.com/excel",
+    "videoQuery": "Excel tutorial for beginners",
+    "lessons": [
+      {
+        "title": "Spreadsheet basics",
+        "points": [
+          "Cells are named by column and row (A1); formulas start with =",
+          "SUM, AVERAGE, MIN and MAX summarise ranges",
+          "Absolute references such as $A$1 lock a cell inside a formula"
+        ]
+      },
+      {
+        "title": "Lookups & logic",
+        "points": [
+          "IF(condition, then, else) adds decisions",
+          "VLOOKUP finds a value in the first column of a table; XLOOKUP is the modern version",
+          "COUNTIF and SUMIF count or add cells that meet a rule"
+        ]
+      },
+      {
+        "title": "Analysis",
+        "points": [
+          "Pivot tables summarise large data quickly",
+          "Charts show trends: column, line and pie",
+          "Data validation and conditional formatting keep sheets accurate and readable"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Every Excel formula starts with…",
+        "options": [
+          {
+            "text": "=",
+            "correct": true
+          },
+          {
+            "text": "#",
+            "correct": false
+          },
+          {
+            "text": "@",
+            "correct": false
+          },
+          {
+            "text": "$",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which function looks up a value in a table?",
+        "options": [
+          {
+            "text": "VLOOKUP",
+            "correct": true
+          },
+          {
+            "text": "SUMIF",
+            "correct": false
+          },
+          {
+            "text": "LEN",
+            "correct": false
+          },
+          {
+            "text": "NOW",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "What does $A$1 mean?",
+        "options": [
+          {
+            "text": "An absolute reference",
+            "correct": true
+          },
+          {
+            "text": "A relative reference",
+            "correct": false
+          },
+          {
+            "text": "A text value",
+            "correct": false
+          },
+          {
+            "text": "An error",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which tool gives quick summaries of large data?",
+        "options": [
+          {
+            "text": "Pivot table",
+            "correct": true
+          },
+          {
+            "text": "Spell check",
+            "correct": false
+          },
+          {
+            "text": "Freeze panes",
+            "correct": false
+          },
+          {
+            "text": "Print preview",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which function adds cells that meet a condition?",
+        "options": [
+          {
+            "text": "SUMIF",
+            "correct": true
+          },
+          {
+            "text": "COUNT",
+            "correct": false
+          },
+          {
+            "text": "ROUND",
+            "correct": false
+          },
+          {
+            "text": "CONCAT",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c8",
+    "title": "Digital Marketing & SEO",
+    "skill": "SEO",
+    "level": "Beginner",
+    "duration": "4 weeks",
+    "docsUrl": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "videoQuery": "SEO for beginners",
+    "lessons": [
+      {
+        "title": "How search works",
+        "points": [
+          "Search engines crawl, index and rank pages",
+          "Keywords reflect what people type; match them to search intent",
+          "Quality content that answers the query ranks better"
+        ]
+      },
+      {
+        "title": "On-page SEO",
+        "points": [
+          "Use a clear title tag, a meta description and one H1 per page",
+          "Add descriptive alt text to images and keep URLs readable",
+          "Internal links help users and crawlers move around the site"
+        ]
+      },
+      {
+        "title": "Off-page & measurement",
+        "points": [
+          "Backlinks from trusted sites signal authority",
+          "Page speed and mobile-friendliness affect rankings",
+          "Track results with Google Search Console and Analytics"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "What does SEO stand for?",
+        "options": [
+          {
+            "text": "Search Engine Optimization",
+            "correct": true
+          },
+          {
+            "text": "Site Engagement Overview",
+            "correct": false
+          },
+          {
+            "text": "Search Entry Option",
+            "correct": false
+          },
+          {
+            "text": "Social Engine Output",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which element tells search engines the title of a page?",
+        "options": [
+          {
+            "text": "Title tag",
+            "correct": true
+          },
+          {
+            "text": "Footer tag",
+            "correct": false
+          },
+          {
+            "text": "Script tag",
+            "correct": false
+          },
+          {
+            "text": "Style tag",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "What are backlinks?",
+        "options": [
+          {
+            "text": "Links from other sites to yours",
+            "correct": true
+          },
+          {
+            "text": "Links inside your page",
+            "correct": false
+          },
+          {
+            "text": "Broken links",
+            "correct": false
+          },
+          {
+            "text": "Paid ads",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which tool tracks search performance?",
+        "options": [
+          {
+            "text": "Google Search Console",
+            "correct": true
+          },
+          {
+            "text": "Notepad",
+            "correct": false
+          },
+          {
+            "text": "Paint",
+            "correct": false
+          },
+          {
+            "text": "Calculator",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Image alt text helps with…",
+        "options": [
+          {
+            "text": "Accessibility and image SEO",
+            "correct": true
+          },
+          {
+            "text": "Page colour",
+            "correct": false
+          },
+          {
+            "text": "Server speed",
+            "correct": false
+          },
+          {
+            "text": "Email delivery",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c9",
+    "title": "Business Communication",
+    "skill": "Communication",
+    "level": "Beginner",
+    "duration": "2 weeks",
+    "docsUrl": null,
+    "videoQuery": "business communication skills",
+    "lessons": [
+      {
+        "title": "Foundations",
+        "points": [
+          "Communication has a sender, a message, a channel and a receiver",
+          "Clarity, brevity and tone matter in every message",
+          "Know your audience before you write or speak"
+        ]
+      },
+      {
+        "title": "Listening & speaking",
+        "points": [
+          "Active listening: give attention, paraphrase and ask clarifying questions",
+          "Body language and tone carry meaning too",
+          "Structure what you say: point, reason, example, point"
+        ]
+      },
+      {
+        "title": "Professional writing",
+        "points": [
+          "A good email has a clear subject, short paragraphs and a specific request",
+          "Be polite and proofread before sending",
+          "Good feedback is specific, kind and actionable"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Active listening involves…",
+        "options": [
+          {
+            "text": "Paraphrasing and asking questions",
+            "correct": true
+          },
+          {
+            "text": "Interrupting",
+            "correct": false
+          },
+          {
+            "text": "Ignoring the speaker",
+            "correct": false
+          },
+          {
+            "text": "Multitasking",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "A good email subject line is…",
+        "options": [
+          {
+            "text": "Clear and specific",
+            "correct": true
+          },
+          {
+            "text": "Empty",
+            "correct": false
+          },
+          {
+            "text": "All capitals",
+            "correct": false
+          },
+          {
+            "text": "Very long",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which are parts of the communication process?",
+        "options": [
+          {
+            "text": "Sender, message and receiver",
+            "correct": true
+          },
+          {
+            "text": "Only the message",
+            "correct": false
+          },
+          {
+            "text": "Only the channel",
+            "correct": false
+          },
+          {
+            "text": "None of these",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Good feedback is…",
+        "options": [
+          {
+            "text": "Specific and actionable",
+            "correct": true
+          },
+          {
+            "text": "Vague",
+            "correct": false
+          },
+          {
+            "text": "Personal",
+            "correct": false
+          },
+          {
+            "text": "Postponed forever",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Before writing a message you should…",
+        "options": [
+          {
+            "text": "Know your audience",
+            "correct": true
+          },
+          {
+            "text": "Skip planning",
+            "correct": false
+          },
+          {
+            "text": "Use heavy jargon",
+            "correct": false
+          },
+          {
+            "text": "Make it as long as possible",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c10",
+    "title": "Cloud Basics with AWS",
+    "skill": "AWS",
+    "level": "Intermediate",
+    "duration": "4 weeks",
+    "docsUrl": "https://aws.amazon.com/getting-started/",
+    "videoQuery": "AWS cloud practitioner tutorial",
+    "lessons": [
+      {
+        "title": "Cloud basics",
+        "points": [
+          "Cloud computing delivers servers, storage and databases over the internet on demand",
+          "You pay only for what you use",
+          "AWS Regions contain several Availability Zones for resilience"
+        ]
+      },
+      {
+        "title": "Core services",
+        "points": [
+          "EC2 provides virtual servers and S3 provides object storage",
+          "RDS runs managed relational databases",
+          "Lambda runs code without managing servers"
+        ]
+      },
+      {
+        "title": "Security & cost",
+        "points": [
+          "IAM controls who can do what through users, roles and policies",
+          "Least privilege means granting only the permissions that are needed",
+          "Use billing alerts and the free tier to control cost"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Which AWS service provides virtual servers?",
+        "options": [
+          {
+            "text": "EC2",
+            "correct": true
+          },
+          {
+            "text": "S3",
+            "correct": false
+          },
+          {
+            "text": "IAM",
+            "correct": false
+          },
+          {
+            "text": "RDS",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which service stores objects such as images and files?",
+        "options": [
+          {
+            "text": "S3",
+            "correct": true
+          },
+          {
+            "text": "Lambda",
+            "correct": false
+          },
+          {
+            "text": "CloudWatch",
+            "correct": false
+          },
+          {
+            "text": "Route 53",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which service manages users and permissions?",
+        "options": [
+          {
+            "text": "IAM",
+            "correct": true
+          },
+          {
+            "text": "EC2",
+            "correct": false
+          },
+          {
+            "text": "SNS",
+            "correct": false
+          },
+          {
+            "text": "EBS",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "What is least privilege?",
+        "options": [
+          {
+            "text": "Granting only the permissions needed",
+            "correct": true
+          },
+          {
+            "text": "Giving everyone admin rights",
+            "correct": false
+          },
+          {
+            "text": "Sharing passwords",
+            "correct": false
+          },
+          {
+            "text": "Disabling logging",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Which service runs code without managing servers?",
+        "options": [
+          {
+            "text": "Lambda",
+            "correct": true
+          },
+          {
+            "text": "EC2",
+            "correct": false
+          },
+          {
+            "text": "S3",
+            "correct": false
+          },
+          {
+            "text": "VPC",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
